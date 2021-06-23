@@ -68,8 +68,13 @@
 }
 .divbox img{
     width:100%;
+    opacity: 1;
     
     
+}
+.divbox img:hover{
+    color: cadetblue;
+    opacity: 0.6;
 }
 .divflex-min{
     flex-wrap:wrap;
@@ -84,6 +89,10 @@
 .divbox-min img{
     width:100%;
     margin-right:10px ;
+    opacity: 1;
+}
+.divbox-min img:hover{
+    opacity: 0.6;
 }
 
 .divbox-min1{
@@ -92,7 +101,11 @@
 }
 .divbox-min1 img{
     width:100%;
+    opacity: 1;
 
+}
+.divbox-min1 img:hover{
+    opacity:0.6;
 }
 .divbox-min img{
     width:100%;
